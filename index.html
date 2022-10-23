@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>weatherApp</title>
+     <link rel="stylesheet" href="./styles/style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="weather">
+          <div class="searchcontainer">
+               <input type="text" id="search" placeholder="search location...">
+               <span class="clearIcon">
+                    <i class="fa-solid fa-xmark"></i>
+               </span>
+               <span class="searchIcon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+               </span>
+          </div>
+          <div class="content">
+               <div class="top">
+                    <div class="locations">
+                         <div class="location">
+                              <h4 class="locationTitle">location</h4>
+                              <h2 class="locationCity">loading...</h2>
+                         </div>
+                         <div class="icon">
+                              <img class="origicon">
+                         </div>
+                    </div>
+                    <div class="conditions">
+                         <div class="commentCont">
+                              <h3 class="comment"></h3>
+                         </div>
+                         <div class="windCont">
+                              <h4 class="wind"></h4>
+                         </div>
+                         <div class="temperature">
+                              <h4 class="temp"></h4>
+                         </div>
+                    </div>
+               </div>
+               <div class="nextdays">
+                    
+               </div>
+          </div>
+     </div>
+
+     <script src="main.js"></script>
+</body>
+</html>
